@@ -1,0 +1,126 @@
+
+/* #2962CC , #5D749E, #0059FF, #3D4B66, #292C33 */
+
+h1 h2 h3 {
+    font-style: "Oswald", sans-serif;
+}
+body{
+    background-color: #292C33;
+    font-family: 'Work Sans' sans-serif;
+}
+h1{
+    font-size: 25;
+    color:#2962CC;
+    text-decoration:underline;
+}
+
+header {
+    margin:40px;
+    text-align: center;
+    font-size: 20px;
+    color: #2962CC;
+    font-weight: 600;
+    border: 7.5px solid #0059FF;
+    border-radius: 75px;
+    box-shadow: white 1px 15px 40px inset;
+
+}
+header p{
+    margin: 20px;
+}
+header img{
+    margin: 20px;
+    text-align: center;
+    border: #0059FF 5px solid;
+    border-radius: 50px;
+}
+
+#Picture{
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+#Picture img{
+
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    background-color: #292C33;
+    border: #0059FF 5px solid;
+    width: 650px;
+    height: 600px;
+    border-radius: 20%;
+    
+}
+ 
+/* All the Example code*/ 
+
+#Example img{
+
+    width:500px;
+    height: 500px;
+    border-radius: 50px;
+    margin: 20px;
+
+}
+
+#Example p{
+    margin: 40px;
+}
+#Example{
+
+    margin: 150px;
+    border-radius: 50px;
+    box-shadow: 5px 25px 40px #0059FF inset;
+    font-size:larger;
+    border: 5px solid blue;
+    color:  #2962CC;
+    display: flex;
+    flex-direction:row-reverse;
+  
+}
+h2{
+    margin:50px;
+}
+
+/*All that Review Stuff*/
+
+#Reviews {
+    margin: 40px 80px 40px 80px;
+    border-radius: 50px;
+    color: #3D4B66 ;
+    font-size: 30px;
+    border: 6px solid #0059FF; 
+    background-color: #3D4B66;
+    box-shadow: 5px 5px 50px white inset;
+    
+    
+}
+
+h3{
+    margin-left: 50px;
+    color: #2962CC;
+    text-decoration: underline;
+}
+#Reviews img{
+    margin-left: 50px;
+    border-radius: 50px;
+    display: flex;
+    border: 3.5px solid #0059FF;
+    width:100px;
+    padding:2.5px;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 5px 20px 55px white inset;
+}
+
+#Reviews p{
+    margin: 40px;
+    color: #2962CC;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+
